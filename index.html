@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teachers Day</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring">
+        <span>VIEW</span>
+    </div>
+    <header class="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo magnetic">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </span>
+                <span>
+                    Dear <b>Teacher</b>
+                </span>
+            </a>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#story">Our Story</a>
+                <a href="#teachers">Teachers</a>
+                <a href="#memories">Memories</a>
+            </nav>
+            <a href="#message" class="nav-button magnetic">
+                Say Thank You
+                <i class="fa-solid fa-heart"></i>
+            </a>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="blob blob-one"></div>
+        <div class="blob blob-two"></div>
+        <div class="blob blob-three"></div>
+        <div class="floating-element float-star star-one">
+            ✦
+        </div>
+        <div class="floating-element float-star star-two">
+            ✦
+        </div>
+        <div class="floating-element float-heart heart-one">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="floating-element float-heart heart-two">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="floating-element float-flower flower-one">
+            ✿
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-label hero-item">
+                    <span class="label-line"></span>
+                    <span>HAPPY TEACHERS' DAY</span>
+                    <span class="label-line"></span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Some people</span>
+                    <span class="title-line pink-text">
+                        teach lessons.
+                    </span>
+                    <span class="title-line">
+                        Great teachers
+                    </span>
+                    <span class="title-line blue-text">
+                        change lives.
+                    </span>
+                </h1>
+                <p class="hero-description hero-item">
+                    To every teacher who turned confusion into
+                    understanding, mistakes into lessons and
+                    dreams into possibilities.
+
+                </p>
+                <div class="hero-actions hero-item">
+                    <a href="#teachers" class="main-button magnetic">
+                        Meet Our Teachers
+                        <span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </span>
+                    </a>
+                    <button class="surprise-button magnetic" id="surpriseBtn">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        Surprise Me
+                    </button>
+                </div>
+                <div class="hero-message">
+                    <div class="mini-avatar">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div>
+                        <strong id="typingText">
+                            Thank you for believing in us.
+                        </strong>
+                        <small>
+                            — A message from your students
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-ring"></div>
+                <div class="visual-ring ring-two"></div>
+                <div class="hero-photo">
+                    <img src="./images/hero img.JPG" alt="Teacher">
+                </div>
+                <div class="floating-card card-top">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div>
+                        <strong>Infinite</strong>
+                        <small>Inspiration</small>
+                    </div>
+                </div>
+                <div class="floating-card card-bottom">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>
+                        Thank you<br>
+                        for everything
+                    </span>
+                </div>
+                <div class="circle-text">
+
+                    <svg viewBox="0 0 200 200">
+
+                        <defs>
+                            <path id="circlePath" d="M 100,100
+                                   m -70,0
+                                   a 70,70 0 1,1 140,0
+                                   a 70,70 0 1,1 -140,0">
+                            </path>
+                        </defs>
+                        <text>
+                            <textPath href="#circlePath">
+                                • INSPIRE • TEACH • BELIEVE • GUIDE
+                            </textPath>
+                        </text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>SCROLL DOWN</span>
+            <div class="scroll-arrow">
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+        </div>
+    </section>
+    <section class="story section" id="story">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label">
+                    THE MAGIC OF TEACHING
+                </span>
+                <h2>
+                    Behind every
+                    <em>successful</em>
+                    student...
+                </h2>
+                <p>
+                    There is often a teacher who refused to give up
+                    on them.
+                </p>
+            </div>
+            <div class="story-grid">
+                <div class="story-image reveal-left">
+                    <div class="image-frame">
+                        <img src="./images/story.JPG" alt="Teacher">
+                    </div>
+                    <div class="image-sticker">
+                        <span>♥</span>
+                        <strong>
+                            Made with<br>
+                            gratitude
+                        </strong>
+                    </div>
+                </div>
+                <div class="story-content reveal-right">
+                    <span class="story-number">
+                        01 / 03
+                    </span>
+                    <h3>
+                        You taught us
+                        <span>more than books.</span>
+                    </h3>
+                    <p>
+                        A teacher's impact goes far beyond the
+                        classroom. You taught us how to ask questions,
+                        how to try again after failure and how to
+                        believe in ourselves.
+                    </p>
+                    <p>
+                        The lessons written on a whiteboard may fade,
+                        but the confidence you gave us stays forever.
+                    </p>
+                    <div class="story-features">
+                        <div class="feature">
+                            <span>
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </span>
+                            <div>
+                                <strong>Inspire</strong>
+                                <small>You sparked curiosity.</small>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span>
+                                <i class="fa-solid fa-seedling"></i>
+                            </span>
+                            <div>
+                                <strong>Guide</strong>
+                                <small>You helped us grow.</small>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span>
+                                <i class="fa-solid fa-heart"></i>
+                            </span>
+                            <div>
+                                <strong>Believe</strong>
+                                <small>You believed in us.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat">
+                <div class="stat-icon">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                </div>
+                <strong class="counter" data-target="6">0</strong>
+                <span>Inspiring Teachers</span>
+            </div>
+            <div class="stat">
+                <div class="stat-icon">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+                <strong class="counter" data-target="100">0</strong>
+                <span>Lessons Remembered</span>
+            </div>
+            <div class="stat">
+                <div class="stat-icon">
+                    <i class="fa-solid fa-face-smile"></i>
+                </div>
+                <strong class="counter" data-target="1000">0</strong>
+                <span>Beautiful Memories</span>
+            </div>
+            <div class="stat">
+                <div class="stat-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <strong>∞</strong>
+                <span>Gratitude</span>
+            </div>
+        </div>
+    </section>
+    <section class="teachers section" id="teachers">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label">
+                    MEET THE INSPIRATIONS
+                </span>
+                <h2>
+                    The people who
+                    <em>made a difference.</em>
+                </h2>
+                <p>
+                    Hover over a teacher and click to discover
+                    a little message from the heart.
+                </p>
+            </div>
+            <div class="teachers-grid">
+                <article class="teacher-card" data-name="Miss Yasmeen Anees" data-subject="Our Inspiration"
+                    data-image="./images/miss yasmeen.JPG"
+                    data-message="Thank you for believing in us even when we doubted ourselves. Your lessons will stay with us forever.">
+                    <div class="teacher-photo">
+                        <img src="./images/miss yasmeen.JPG" alt="Teacher">
+                        <div class="teacher-number">
+                            01
+                        </div>
+                        <div class="view-circle">
+                            <span>VIEW</span>
+                            <i class="fa-solid fa-arrow-up-right"></i>
+                        </div>
+                    </div>
+                    <div class="teacher-details">
+                        <span>
+                            OUR INSPIRATION
+                        </span>
+                        <h3>Miss Yasmeen Anees</h3>
+                        <p>
+                            The one who inspired us to dream bigger.
+                        </p>
+                    </div>
+                </article>
+                <article class="teacher-card" data-name="Miss Maryam Zehra" data-subject="Our Guide"
+                    data-image="./images/ms maryam.JPG"
+                    data-message="Your patience, kindness and guidance made every difficult lesson feel possible. Thank you!">
+                    <div class="teacher-photo">
+                        <img src="./images/ms maryam.JPG" alt="Teacher">
+                        <div class="teacher-number">
+                            02
+                        </div>
+                        <div class="view-circle">
+                            <span>VIEW</span>
+                            <i class="fa-solid fa-arrow-up-right"></i>
+                        </div>
+                    </div>
+                    <div class="teacher-details">
+                        <span>
+                            OUR GUIDE
+                        </span>
+                        <h3>Miss Maryam Zehra</h3>
+                        <p>
+                            Always there with the right advice.
+                        </p>
+                    </div>
+                </article>
+                <article class="teacher-card" data-name="Sir Imran Khan" data-subject="Our Mentor"
+                    data-image="./images/sir.imran.JPG"
+                    data-message="You taught us that mistakes are not the end. They are simply another opportunity to learn.">
+                    <div class="teacher-photo">
+                        <img src="./images/sir.imran.JPG" alt="Teacher">
+                        <div class="teacher-number">
+                            03
+                        </div>
+                        <div class="view-circle">
+                            <span>VIEW</span>
+                            <i class="fa-solid fa-arrow-up-right"></i>
+                        </div>
+                    </div>
+                    <div class="teacher-details">
+                        <span>
+                            OUR MENTOR
+                        </span>
+                        <h3>Sir Imran Khan</h3>
+                        <p>
+                            Turning challenges into opportunities.
+                        </p>
+                    </div>
+                </article>
+                <article class="teacher-card" data-name="Miss Umra Badar" data-subject="Our Role Model"
+                    data-image="./images/ms umra.JPG"
+                    data-message="Your dedication taught us the meaning of hard work. We are grateful for everything you do.">
+                    <div class="teacher-photo">
+                        <img src="./images/ms umra.JPG" alt="Teacher">
+                        <div class="teacher-number">
+                            04
+                        </div>
+                        <div class="view-circle">
+                            <span>VIEW</span>
+                            <i class="fa-solid fa-arrow-up-right"></i>
+                        </div>
+                    </div>
+                    <div class="teacher-details">
+                        <span>
+                            OUR ROLE MODEL
+                        </span>
+                        <h3>Miss Umra Badar</h3>
+                        <p>
+                            Teaching us through actions.
+                        </p>
+                    </div>
+                </article>
+                <article class="teacher-card" data-name="Miss Hanifa" data-subject="Our Motivation"
+                    data-image="./images/ms hanifa.JPG"
+                    data-message="Whenever we needed motivation, your words gave us the courage to keep moving forward.">
+                    <div class="teacher-photo">
+                        <img src="./images/ms hanifa.JPG" alt="Teacher">
+                        <div class="teacher-number">
+                            05
+                        </div>
+                        <div class="view-circle">
+                            <span>VIEW</span>
+                            <i class="fa-solid fa-arrow-up-right"></i>
+                        </div>
+                    </div>
+                    <div class="teacher-details">
+                        <span>
+                            OUR MOTIVATION
+                        </span>
+                        <h3>Miss Hanifa</h3>
+                        <p>
+                            The voice that always said "try again."
+                        </p>
+                    </div>
+                </article>
+                <article class="teacher-card" data-name="Miss Laiba" data-subject="Our Inspiration"
+                    data-image="./images/ms laiba.JPG"
+                    data-message="Thank you for making the classroom a place where learning felt exciting and meaningful.">
+
+                    <div class="teacher-photo">
+
+                        <img src="./images/ms laiba.JPG" alt="Teacher">
+
+                        <div class="teacher-number">
+                            06
+                        </div>
+
+                        <div class="view-circle">
+                            <span>VIEW</span>
+                            <i class="fa-solid fa-arrow-up-right"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="teacher-details">
+
+                        <span>
+                            OUR INSPIRATION
+                        </span>
+
+                        <h3>Miss Laiba Irfan</h3>
+
+                        <p>
+                            Making every lesson memorable.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="message-generator" id="memories">
+
+        <div class="generator-blur blur-one"></div>
+        <div class="generator-blur blur-two"></div>
+
+        <div class="container">
+
+            <div class="generator-card">
+
+                <div class="generator-left">
+
+                    <span class="section-label">
+                        A LITTLE SURPRISE
+                    </span>
+
+                    <h2>
+                        Need the right
+                        <em>words?</em>
+                    </h2>
+
+                    <p>
+                        Press the button and let us find a
+                        beautiful thank-you message for your teacher.
+                    </p>
+
+                    <button class="generate-btn magnetic" id="generateMessage">
+
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                        Generate A Message
+
+                    </button>
+
+                </div>
+
+
+                <div class="generator-result">
+
+                    <div class="result-quote">
+                        “
+                    </div>
+
+                    <p id="generatedMessage">
+                        Your appreciation message
+                        will appear here...
+                    </p>
+
+                    <div class="result-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="final-message section" id="message">
+        <div class="container">
+            <div class="final-content">
+                <div class="final-stars">
+                    ✦ ✧ ✦
+                </div>
+                <span class="section-label">
+                    FROM THE HEART
+                </span>
+                <h2>
+                    Thank you for
+                    <span>shaping our future.</span>
+                </h2>
+                <p>
+                    We may forget the formulas, dates and definitions,
+                    but we will never forget the teachers who made us
+                    believe that we could.
+                </p>
+                <div class="final-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <strong class="final-title">
+                    Happy Teachers' Day
+                </strong>
+                <span class="final-subtitle">
+                    With endless gratitude & love
+                </span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Dear <b>Teacher</b>
+            </div>
+            <p>
+                Created with love for the people
+                who inspire us to become better.
+            </p>
+            <div class="footer-line"></div>
+            <span>
+                © 2026 • Teachers' Day Celebration
+            </span>
+        </div>
+    </footer>
+    <div class="teacher-modal" id="teacherModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-image">
+                <img id="modalImage" src="" alt="Teacher">
+            </div>
+            <div class="modal-content">
+                <span id="modalSubject">
+                    OUR INSPIRATION
+                </span>
+                <h2 id="modalName">
+                    Teacher Name
+                </h2>
+                <div class="modal-line"></div>
+                <p id="modalMessage">
+                    Thank you for everything.
+                </p>
+                <div class="modal-thanks">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>
+                        Forever grateful
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
