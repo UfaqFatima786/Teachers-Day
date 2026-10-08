@@ -150,21 +150,6 @@ Building this project helped strengthen my understanding of:
 
 ---
 
-## 🎯 Future Improvements
-
-Some ideas that could be added in future versions:
-
-* 📝 Custom message submission
-* 📤 Share appreciation messages
-* 🎵 Optional background music
-* 📸 Teacher photo upload
-* 💾 Save favorite messages
-* 🌙 Dark mode
-* 🎊 Confetti celebration effect
-* 📱 Social sharing buttons
-
----
-
 ## ❤️ A Special Thank You
 
 > **"A teacher plants the seeds of knowledge that grow forever."** 🌱
