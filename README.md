@@ -87,10 +87,6 @@ The website continuously displays different appreciation messages using a typewr
 
 Desktop users experience a custom cursor with an animated cursor ring that reacts to interactive elements.
 
-### 🧲 Magnetic Buttons
-
-Selected interactive elements respond to mouse movement with a subtle magnetic effect for a more engaging experience.
-
 ### 🎭 GSAP Animations
 
 GSAP is used extensively for:
