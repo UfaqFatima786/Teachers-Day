@@ -83,9 +83,6 @@ Users can generate random appreciation messages with a simple click, making each
 
 The website continuously displays different appreciation messages using a typewriter-style animation, including messages such as thanking teachers for their patience, inspiration, and support.
 
-### 🖱️ Custom Cursor
-
-Desktop users experience a custom cursor with an animated cursor ring that reacts to interactive elements.
 
 ### 🎭 GSAP Animations
 
